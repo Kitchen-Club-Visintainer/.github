@@ -1,2 +1,1 @@
-# .github
-Kitchen Club
+# Kitchen Club
