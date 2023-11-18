@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-18T14:52:21.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P1UXGN_m2dHG2tpaK_zp" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-18T15:15:52.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OCk6v3fx07_17uRqb9rE" version="22.1.3" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="724" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,9 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ww6VNt_8pFpvYCyrklKL-45" value="Usuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="890" width="200" height="194" as="geometry" />
+          <mxGeometry x="80" y="890" width="200" height="194" as="geometry">
+            <mxRectangle x="80" y="890" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ww6VNt_8pFpvYCyrklKL-46" value="- id: Long&lt;br&gt;- nomeCompleto: String&lt;br&gt;- usuario: String&lt;br&gt;- email: String&lt;br&gt;- senha: String&lt;br&gt;- ativo: boolean&lt;br&gt;- perfilUsuario:&amp;nbsp;PerfilUsuario&lt;br&gt;- endereços" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ww6VNt_8pFpvYCyrklKL-45" vertex="1">
           <mxGeometry y="26" width="200" height="134" as="geometry" />
@@ -167,8 +169,51 @@
         <mxCell id="Ww6VNt_8pFpvYCyrklKL-48" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ww6VNt_8pFpvYCyrklKL-45" vertex="1">
           <mxGeometry y="168" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TmeQhPRX9ULFjZh1G77B-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PerfilUsuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ADMINISTRADOR&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;USUARIO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;COZINHEIRO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="360" y="870" width="190" height="140" as="geometry" />
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PerfilUsuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ADMINISTRADOR&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;USUARIO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;COZINHEIRO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;container=0;noLabel=0;portConstraintRotation=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="860" width="140" height="120" as="geometry">
+            <mxRectangle x="360" y="870" width="150" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;" edge="1" parent="1" source="Ww6VNt_8pFpvYCyrklKL-46" target="TmeQhPRX9ULFjZh1G77B-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-71" value="Ingredientes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="890" width="200" height="144" as="geometry">
+            <mxRectangle x="80" y="890" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-72" value="- id: Long&lt;br&gt;- nome: String&lt;br&gt;- valorNutricional: String&lt;br&gt;- grupoAlimentar: GrupoAlimentar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TmeQhPRX9ULFjZh1G77B-71">
+          <mxGeometry y="26" width="200" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TmeQhPRX9ULFjZh1G77B-71">
+          <mxGeometry y="110" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-74" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TmeQhPRX9ULFjZh1G77B-71">
+          <mxGeometry y="118" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-76" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GrupoAlimentar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;PROTEINAS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CARBOIDRATOS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;GORDURAS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;VEGETAIS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;LEGUMINOSAS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;FRUTAS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;LATICIONIOS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;DOCES&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;OUTROS&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;container=0;noLabel=0;portConstraintRotation=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1020" width="140" height="190" as="geometry">
+            <mxRectangle x="360" y="870" width="150" height="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-77" value="Usuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1110" width="200" height="164" as="geometry">
+            <mxRectangle x="80" y="890" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-78" value="- id: Long&lt;br&gt;- cep: String&lt;br&gt;- logradouro: String&lt;br&gt;- complemento: String&lt;br&gt;- numero: Integer&lt;br&gt;- uf: Uf" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TmeQhPRX9ULFjZh1G77B-77">
+          <mxGeometry y="26" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TmeQhPRX9ULFjZh1G77B-77">
+          <mxGeometry y="130" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-80" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TmeQhPRX9ULFjZh1G77B-77">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TmeQhPRX9ULFjZh1G77B-85" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Uf&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AM&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AL&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AC&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AP&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;BA&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;PA&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;MT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;MG&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;MS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;GO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;MA&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;RS&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;TO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;PI&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;SP&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;RO&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;RR&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;PR&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CE&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;PE&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;SC&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;PB&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;RN&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ES&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;RJ&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;SE&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;DF&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;container=0;noLabel=0;portConstraintRotation=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="860" width="70" height="440" as="geometry">
+            <mxRectangle x="360" y="870" width="150" height="130" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
