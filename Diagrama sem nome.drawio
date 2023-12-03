@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T16:42:51.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zeyr6t7bc91zadx8cvxj" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T16:56:03.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6jb6E0k-kCbqxQZQ880-" version="22.1.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="724" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -484,16 +484,11 @@
             <mxPoint x="14" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="dI9o_VCU6zCjMcfg1bPC-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="dI9o_VCU6zCjMcfg1bPC-81" target="dI9o_VCU6zCjMcfg1bPC-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dI9o_VCU6zCjMcfg1bPC-81" value="AuthController" style="" vertex="1" parent="1">
           <mxGeometry x="1830" y="2075" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dI9o_VCU6zCjMcfg1bPC-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.349;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dI9o_VCU6zCjMcfg1bPC-86" target="dI9o_VCU6zCjMcfg1bPC-88">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1660" y="2261" />
-              <mxPoint x="1660" y="2261" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="dI9o_VCU6zCjMcfg1bPC-86" value="Tela Inicial" style="" vertex="1" parent="1">
           <mxGeometry x="1500" y="2250" width="110" height="50" as="geometry" />
@@ -507,6 +502,21 @@
         </mxCell>
         <mxCell id="dI9o_VCU6zCjMcfg1bPC-88" value="IngredientesController" style="" vertex="1" parent="1">
           <mxGeometry x="1820" y="2240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dI9o_VCU6zCjMcfg1bPC-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.059;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dI9o_VCU6zCjMcfg1bPC-91" target="dI9o_VCU6zCjMcfg1bPC-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dI9o_VCU6zCjMcfg1bPC-91" value="" style="shape=line;strokeWidth=6;strokeColor=#ff0000;rotation=90" vertex="1" parent="1">
+          <mxGeometry x="1595" y="2327.5" width="260" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="dI9o_VCU6zCjMcfg1bPC-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=0;" edge="1" parent="1" source="dI9o_VCU6zCjMcfg1bPC-92" target="dI9o_VCU6zCjMcfg1bPC-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dI9o_VCU6zCjMcfg1bPC-92" value="AutenticacaoViaTokenFilter" style="" vertex="1" parent="1">
+          <mxGeometry x="1830" y="2160" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dI9o_VCU6zCjMcfg1bPC-95" value="TokenService" style="" vertex="1" parent="1">
+          <mxGeometry x="2130" y="2075" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
